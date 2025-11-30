@@ -30,6 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <ul class="menu menu-horizontal">
             <!-- Navbar menu content here -->
             <li><RouterLink to="/">Home</RouterLink></li>
+            <li><RouterLink to="/demo">Demo</RouterLink></li>
             <li><RouterLink to="/three">Cube</RouterLink></li>
             <li><RouterLink to="/particles">Particles</RouterLink></li>
             <li><RouterLink to="/interaction">Interaction</RouterLink></li>
@@ -109,6 +110,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <ul class="menu p-4 w-80 min-h-full bg-base-200">
         <!-- Sidebar content here -->
         <li><RouterLink to="/">Home</RouterLink></li>
+        <li><RouterLink to="/demo">Demo</RouterLink></li>
         <li><RouterLink to="/three">Cube</RouterLink></li>
         <li><RouterLink to="/particles">Particles</RouterLink></li>
         <li><RouterLink to="/interaction">Interaction</RouterLink></li>
