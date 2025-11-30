@@ -31,6 +31,11 @@ const router = createRouter({
       name: 'interaction',
       component: () => import('../components/InteractionDemo.vue'),
     },
+    {
+      path: '/dashboard',
+      name: 'dashboard',
+      component: () => import('../views/DashboardView.vue'),
+    },
   ],
 })
 

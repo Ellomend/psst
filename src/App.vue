@@ -33,6 +33,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <li><RouterLink to="/three">Cube</RouterLink></li>
             <li><RouterLink to="/particles">Particles</RouterLink></li>
             <li><RouterLink to="/interaction">Interaction</RouterLink></li>
+            <li><RouterLink to="/dashboard">Dashboard</RouterLink></li>
             <li><RouterLink to="/about">About</RouterLink></li>
           </ul>
         </div>
@@ -112,6 +113,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <li><RouterLink to="/three">Cube</RouterLink></li>
         <li><RouterLink to="/particles">Particles</RouterLink></li>
         <li><RouterLink to="/interaction">Interaction</RouterLink></li>
+        <li><RouterLink to="/dashboard">Dashboard</RouterLink></li>
         <li><RouterLink to="/about">About</RouterLink></li>
       </ul>
     </div>
