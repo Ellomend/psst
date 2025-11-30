@@ -29,11 +29,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="flex-none hidden lg:block">
           <ul class="menu menu-horizontal">
             <!-- Navbar menu content here -->
-            <li><RouterLink to="/">Home</RouterLink></li>
-            <li><RouterLink to="/three">Cube</RouterLink></li>
-            <li><RouterLink to="/particles">Particles</RouterLink></li>
-            <li><RouterLink to="/interaction">Interaction</RouterLink></li>
-            <li><RouterLink to="/dashboard">Dashboard</RouterLink></li>
+            <li><RouterLink to="/">Demo</RouterLink></li>
             <li><RouterLink to="/about">About</RouterLink></li>
           </ul>
         </div>
@@ -109,11 +105,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
       <ul class="menu p-4 w-80 min-h-full bg-base-200">
         <!-- Sidebar content here -->
-        <li><RouterLink to="/">Home</RouterLink></li>
-        <li><RouterLink to="/three">Cube</RouterLink></li>
-        <li><RouterLink to="/particles">Particles</RouterLink></li>
-        <li><RouterLink to="/interaction">Interaction</RouterLink></li>
-        <li><RouterLink to="/dashboard">Dashboard</RouterLink></li>
+        <li><RouterLink to="/">Demo</RouterLink></li>
         <li><RouterLink to="/about">About</RouterLink></li>
       </ul>
     </div>

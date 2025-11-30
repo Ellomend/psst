@@ -3,38 +3,21 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    // Compressed to only two pages: Demo dashboard and About
     {
       path: '/',
-      name: 'home',
-      component: () => import('../views/HomeView.vue'),
+      name: 'demo',
+      component: () => import('../views/DashboardView.vue'),
     },
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
     },
+    // Catch-all redirect to root
     {
-      path: '/three',
-      name: 'three',
-      component: () => import('../components/ThreeDemo.vue'),
-    },
-    {
-      path: '/particles',
-      name: 'particles',
-      component: () => import('../components/ParticlesDemo.vue'),
-    },
-    {
-      path: '/interaction',
-      name: 'interaction',
-      component: () => import('../components/InteractionDemo.vue'),
-    },
-    {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: () => import('../views/DashboardView.vue'),
+      path: '/:pathMatch(.*)*',
+      redirect: '/',
     },
   ],
 })
