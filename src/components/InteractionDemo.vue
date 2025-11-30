@@ -97,10 +97,13 @@ const onClick = () => {
   const intersects = raycaster.intersectObjects(scene.children)
 
   if (intersects.length > 0) {
-    const object = intersects[0].object as THREE.Mesh
-    // Don't change color of non-mesh objects (like lights helper if any)
-    if (object.isMesh) {
-      ;(object.material as THREE.MeshLambertMaterial).color.setHex(Math.random() * 0xffffff)
+    const firstIntersect = intersects[0]
+    if (firstIntersect) {
+      const object = firstIntersect.object as THREE.Mesh
+      // Don't change color of non-mesh objects (like lights helper if any)
+      if (object.isMesh) {
+        ;(object.material as THREE.MeshLambertMaterial).color.setHex(Math.random() * 0xffffff)
+      }
     }
   }
 }
