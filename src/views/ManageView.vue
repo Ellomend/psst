@@ -11,6 +11,7 @@ import { RouterLink } from 'vue-router'
           Experience the power of Three.js and Vue 3. Explore our interactive demos below.
         </p>
         <div class="flex flex-col gap-4 sm:flex-row justify-center">
+          <RouterLink to="/dashboard" class="btn btn-primary">Go to Dashboard</RouterLink>
           <RouterLink to="/three" class="btn btn-primary">Cube Demo</RouterLink>
           <RouterLink to="/particles" class="btn btn-secondary">Particles</RouterLink>
           <RouterLink to="/interaction" class="btn btn-accent">Interaction</RouterLink>

@@ -262,13 +262,3 @@
 // This component showcases various DaisyUI components
 </script>
 
-<style scoped>
-/* Add smooth transitions for interactive elements */
-.card {
-  transition: all 0.3s ease;
-}
-
-.btn {
-  transition: all 0.2s ease;
-}
-</style>
